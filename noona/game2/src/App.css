@@ -1,0 +1,29 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.box {
+  width: 300px;
+  border: 5px solid black;
+}
+.box > p {
+  text-align: center;
+}
+.box > p > img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.box + .box {
+  margin-left: 20px;
+}
+.Win {
+  border-color: blue;
+}
+.Lose {
+  border-color: red;
+}
+.Tie {
+  border-color: black;
+}
